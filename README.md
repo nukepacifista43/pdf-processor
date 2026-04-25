@@ -2,7 +2,7 @@
 
 
 
-This repository contains a reusable backend module for managing \*\*Rapat Reses\*\* content, including image upload, rich HTML content storage, PDF generation from `body\_html`, manual PDF upload, PDF compression, PDF download, and PDF-to-editable-HTML draft import.
+This repository contains a reusable backend module for managing Rapat Reses content, including image upload, rich HTML content storage, PDF generation from `body_html`, manual PDF upload, PDF compression, PDF download, and PDF-to-editable-HTML draft import.
 
 
 
@@ -28,9 +28,9 @@ This module supports:
 
 \- Delete main Rapat Reses image
 
-\- Upload editor image for `body\_html`
+\- Upload editor image for `body_html`
 
-\- Generate PDF from `body\_html`
+\- Generate PDF from `body_html`
 
 \- Download generated PDF
 
@@ -76,9 +76,9 @@ Frontend Integration Guide
 
 The frontend should avoid sending base64 images inside body\_html.
 
-Do not send this: <img src="data:image/png;base64,..." />
+Do not send this: img src="data:image/png;base64,..." 
 
-Use this instead: <img src="https://your-domain.com/storage/rapat\_reses\_editor/2026/04/image.webp" />
+Use this instead: img src="https://your-domain.com/storage/rapat\_reses\_editor/2026/04/image.webp" 
 
 
 
